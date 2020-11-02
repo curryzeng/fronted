@@ -31,7 +31,8 @@
     <el-col :span="24" :offset="0">
       <el-table :data="tableData" border max-height="420"  :fit=false
        header-row-class-name="classHeader" row-class-name="classRow" cell-class-name="classCell">
-        <el-table-column v-for="col in tableCols" :key="col.index" :prop="col" :label="col" align="center" width="150px" :show-overflow-tooltip=true>
+        <el-table-column v-for="col in tableCols" :key="col.index" :prop="col" :label="col" align="center"
+                         width="150px" :show-overflow-tooltip=true>
         </el-table-column>
       </el-table>
     </el-col>

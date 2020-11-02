@@ -204,6 +204,15 @@ const store = new Vuex.Store({
           reject(error)
         })
       })
+    },
+    api_get_rds_meta: context => {
+      return new Promise((resolve, reject) => {
+        axios.get('/api/v1/get_rds_meta/').then(resp => {
+          resolve(resp)
+        }).catch(error => {
+          reject(error)
+        })
+      })
     }
 
   }
