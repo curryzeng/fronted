@@ -12,7 +12,7 @@
         </el-form>
       </el-col>
   </el-row>
-<p>{{dbid}}</p>
+
   <el-row >
       <el-col :span="15" :offset="0">
      <el-form  label-width="100px">
