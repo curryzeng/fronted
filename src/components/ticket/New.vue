@@ -54,7 +54,7 @@
 
                  <FormItem label="请上传SQL文件">
                   <Upload
-                    action="http://127.0.0.1:6062/api/v1/upload/"
+                    action="http://112.124.17.40:80/api/v1/upload/"
                     :on-success="afterupload"
                     name="file1"
                     :data="autit_upload_data"
